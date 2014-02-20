@@ -1,31 +1,17 @@
 {
-    "name": "chic",
-    "version": "1.1.0",
-
-    "description": "Chic is an extremely simple class-like interface to JavaScript prototypal inheritance",
-    "keywords": [ "class", "classes", "extend", "inheritance", "oop", "prototypal", "prototype" ],
-    "author": "Rowan Manning (http://rowanmanning.com/)",
-
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rowanmanning/chic.git"
-    },
-    "homepage": "https://github.com/rowanmanning/chic",
-    "bugs": "https://github.com/rowanmanning/chic/issues",
-
-    "engines": {
-        "node": ">=0.6"
-    },
-    "devDependencies": {
-        "jshint": "~2.1",
-        "mocha": "~1.12",
-        "mocha-srv": "~0.1",
-        "proclaim": "~1.5",
-        "sinon": "~1.6"
-    },
-
-    "main": "./lib/chic",
-    "scripts": {
-        "test": "make test"
-    }
+  "name": "rowanmanning-chic",
+  "description": "Chic is an extremely simple class-like interface to JavaScript prototypal inheritance",
+  "version": "1.1.0",
+  "keywords": [
+    "class",
+    "classes",
+    "extend",
+    "inheritance",
+    "oop",
+    "prototypal",
+    "prototype"
+  ],
+  "main": "./lib/chic.js",
+  "dependencies": {},
+  "license": "MIT"
 }
